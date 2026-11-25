@@ -1,0 +1,25 @@
+name: gosh_video_decode_demo
+description: Minimal local video transcode and decode verification demo.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+  flutter: '>=3.44.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  awesome_video_kit:
+    git:
+      url: https://github.com/goshgame/awesome_video_kit.git
+      ref: v0.0.5
+  image_picker: ^1.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
